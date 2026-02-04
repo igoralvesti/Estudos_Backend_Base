@@ -1,0 +1,40 @@
+# 📚 Cheat Sheet: Git (Resumo Prático)
+
+--- 1. CONFIGURAÇÃO INICIAL (Só na 1ª vez) ---
+git config --global user.name "Seu Nome"       # Define seu nome
+git config --global user.email "seu@email.com" # Define seu email
+
+--- 2. IGNORANDO ARQUIVOS (.gitignore) ---
+# Crie um arquivo chamado .gitignore e escreva nele o que o Git deve ignorar.
+# Exemplo do que colocar dentro dele: /out, /target, .idea, *.class
+
+git rm --cached nome-arquivo  # Remove arquivo do Git (se subiu errado), mas mantêm no PC
+
+--- 3. COMANDOS DO DIA A DIA ---
+git status                  # Mostra o que mudou
+git add .                   # Prepara TUDO para salvar
+git commit -m "mensagem"    # Salva a versão (seja descritivo!)
+
+--- 4. SINCRONIZAÇÃO (GitHub) ---
+git remote add origin URL   # Conecta com o repositório online (1ª vez)
+git push                    # Envia alterações para o GitHub
+git pull                    # Baixa alterações do GitHub para o PC
+
+--- 5. BRANCHES (Trabalho Paralelo) ---
+git branch                  # Lista branches
+git branch nome-nova        # Cria branch
+git checkout nome-existente # Troca de branch
+git checkout -b nome-nova   # Cria E Troca de branch ao mesmo tempo
+
+--- 6. MERGE (Unir Códigos) ---
+1. git checkout main        # Vá para a branch principal
+2. git pull                 # Atualize-se
+3. git merge nome-branch    # Una a branch que você criou
+4. git push                 # Envie tudo para o GitHub
+
+--- 7. EMERGÊNCIA ---
+git reflog                  # Histórico absoluto (salva vidas)
+git reset --hard HASH       # Volta o código no tempo (cuidado!)
+
+--- 8. CONCEITOS ---
+Pull Request (PR): Processo no site do GitHub para pedir revisão de código antes do Merge..
