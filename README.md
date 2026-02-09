@@ -34,6 +34,6 @@ Para entender de forma **breve e resumida** os conceitos teóricos aprendidos ne
 ## Material de Apoio (PDF Original)
 Para acompanhar a estrutura original do desafio proposto, disponibilizei o arquivo PDF do guia neste repositório. Você pode consultá-lo para entender a ordem cronológica dos tópicos:
 
-👉 **[Visualizar/Baixar o Guia Original do Devmagro (PDF)](./docs/guia-devmagro.pdf)**
+👉 **[Visualizar/Baixar o Guia Original do Devmagro (PDF)](https://github.com/igoralvesti/Estudos_Backend_Base/blob/master/PDF_%20Guia%20de%20Estudos.pdf)**
 
 ---
