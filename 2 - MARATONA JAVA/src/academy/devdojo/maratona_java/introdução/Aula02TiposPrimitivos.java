@@ -12,10 +12,12 @@ public class Aula02TiposPrimitivos {
         boolean verdadeiro = true;
         boolean falso = false;
         char caractere = '\u0041';
+        String nome = "nomee grande"; // A string não é um tipo primitivo
 
         System.out. println ("A idade é "+idade+" anos");
         System.out.println(falso);
         System.out.println("char "+caractere);
-        System
+        System.out.println(nome);
+
     }
 }
